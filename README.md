@@ -30,7 +30,7 @@ Given an array `nums` of **distinct** positive integers, return the number of tu
 
 - ### Constraints:
     - `1 <= nums.length <= 1000`
-    - <code>1 <= nums[i] <= 10<sub>4</sub></code>
+    - <code>1 <= nums[i] <= 10<sup>4</sup></code>
     - All elements in `nums` are **distinct**.
 <hr>
 
