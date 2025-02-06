@@ -428,5 +428,5 @@ For **complete solution and test cases**, please **refer** here:- [Tuple with Sa
         - The time complexity of this approach is **$O(n^2)$**, where $n$ is the number of elements in the input array. This is due to the double loop that generates all pairs `(a, b)` and calculates the product. Each pair computation and insertion into the hash map takes constant time.
 
     - ### Space Complexity:
-        - The space complexity is **$O(n^2)$** in the worst case. This is because, in the worst case, each product might be unique, resulting in storing up to `n * (n - 1) / 2` pairs in the hash map. The space is mainly used for storing the pairs and the products in the hash map.
+        - The space complexity is **$O(n^2)$** in the worst case. This is because, in the worst case, each product might be unique, resulting in storing up to $\frac{n\times(n - 1)}{2}$ pairs in the hash map. The space is mainly used for storing the pairs and the products in the hash map.
 <hr>
