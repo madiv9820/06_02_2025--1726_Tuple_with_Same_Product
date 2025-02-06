@@ -90,16 +90,16 @@ public:
                         {{1,2,4,5,10}, 16}};
     }
     void test() {
-        // test_case_basic_small_case_1();
-        // test_case_basic_small_case_2();
-        // test_case_all_numbers_are_powers_of_2();
-        // test_case_multiple_combinations();
-        // test_case_larger_numbers();
-        // test_case_sparse_set_of_numbers();
-        // test_case_increasing_numbers_with_no_pair_multiplicative_relationships();
-        // test_case_mixed_large_and_small_numbers();
-        // test_case_single_number();
-        // test_case_all_pair_multiplicative_relationships();
+        test_case_basic_small_case_1();
+        test_case_basic_small_case_2();
+        test_case_all_numbers_are_powers_of_2();
+        test_case_multiple_combinations();
+        test_case_larger_numbers();
+        test_case_sparse_set_of_numbers();
+        test_case_increasing_numbers_with_no_pair_multiplicative_relationships();
+        test_case_mixed_large_and_small_numbers();
+        test_case_single_number();
+        test_case_all_pair_multiplicative_relationships();
         test_case_max_constraint();
     }
 };

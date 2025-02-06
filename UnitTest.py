@@ -76,6 +76,5 @@ class UnitTest(unittest.TestCase):
         nums, output = self.__testcases[10]
         self.assertEqual(self.__sol.tupleSameProduct(nums), output)
 
-
 if __name__ == "__main__":
     unittest.main()
