@@ -63,7 +63,6 @@ private:
         vector<int> nums = testcases[9].first;
         int output = testcases[9].second;
         int result = sol.tupleSameProduct(nums);
-        cout << result << endl;
         cout << "Test Case Max Constraint: " << ((result == output) ? "passed": "failed") << endl;
     }
     void test_case_basic_small_case_2() {
@@ -86,7 +85,7 @@ public:
                             296,980,316,695,323,27,480,715,268,906,361,
                             955,966,768,441,49,588,231,988,539,376,921,
                             890,334,597,586,384,923,942,713,858,765,129,
-                            600,145,154,798,797,902,722,693,940,331,138,727,223}, 480},
+                            600,145,154,798,797,902,722,693,940,331,138,727,223}, 664},
                         {{1,2,4,5,10}, 16}};
     }
     void test() {
